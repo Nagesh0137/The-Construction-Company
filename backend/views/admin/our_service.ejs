@@ -1,0 +1,62 @@
+<%-include('navbar.ejs')%>
+<div class="container">
+    <div class="row ">
+        <div class="col-md-12 p-0 ">
+            <h1 class="heading rounded pb-2 ps-4 ">Our Services</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <form action="/admin/our_service" method="post" enctype="multipart/form-data">
+        <div class="row">
+        <div class="col-md-6 mt-2 mb-2">
+            <label for="">Slider Image</label>
+            <input type="file" name="our_service_image" placeholder="Slider Image" class="form-control">
+            <br>
+        </div>
+        <div class="col-md-6 mt-2 mb-2">
+            <div class="form-group">
+                <label for="">first heading</label>
+                <input type="text" name="our_service_heading"  placeholder="first heading" class="form-control">
+
+                <br>
+            </div>
+            </div>
+        
+        
+        <div class="col-md-12 mt-2 mb-2 text-center">
+        <button class="btn btn-primary">save Now</button>
+        </div>
+
+    </div>
+</form>
+
+
+    <br><br>
+
+    <table class="table table-bordered table-hover table-striped">
+        <tr>
+            <th>Action</th>
+            <th>Sr No</th>
+            <th>first heading</th>
+            <th>Slider Image</th>
+        </tr>
+        <%for(var i=0;i<our_service.length;i++){%>
+            <tr>
+                <td>
+                    <button class="btn btn-info btn-sm text-white"><i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger btn-sm text-white"><i class="fa fa-trash"></i></button>
+                </td>
+            <td><%=i+1%></td>
+            <td><%=our_service[i].our_service_heading%></td>
+            <td>
+                <img src="/uploads/<%=our_service[i].our_service_image%>" alt="" width="200"></td>
+        </tr>
+        <%}%>
+    </table>
+</div>
+</div>
+
+
+<%-include('footer.ejs')%>

@@ -1,0 +1,36 @@
+<%-include('navbar.ejs')%>
+<div class="container">
+    <div class="row ">
+        <div class="col-md-12 p-0 ">
+            <h1 class="heading rounded pb-2 ps-4 ">Our Project</h1>
+        </div>
+    </div>
+</div>
+<form action="/admin/save_our_project" method="post" enctype="multipart/form-data">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mt-2 mb-2">
+            <div class="form-group">
+                <label for=""> heading</label>
+                <input type="text" name="project_heading"  placeholder="first heading" class="form-control">
+
+                <br>
+            </div>
+            </div>
+
+        <div class="col-md-6 mt-2 mb-2">
+            <label for="">Slider Image</label>
+            <input type="file" name="project_image" placeholder="Slider Image" class="form-control">
+            <br>
+        </div>
+        <div class="col-md-12 mt-2 mb-2 text-center">
+        <button class="btn btn-primary">save Now</button>
+        </div>
+
+    </div>
+</div>
+</div>
+</form>
+
+<%-include('footer.ejs')%>

@@ -1,0 +1,57 @@
+<%-include('navbar.ejs')%>
+<div class="container">
+    <div class="row ">
+        <div class="col-md-12 p-0 ">
+            <h1 class="heading rounded pb-2 ps-4 ">Home Page</h1>
+        </div>
+    </div>
+</div>
+<!-- <%=home_slider%> -->
+<form action="/admin/update_slider" method="post" enctype="multipart/form-data">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mt-2 mb-2">
+            <div class="form-group">
+                <label for="">first heading</label>
+                <input type="text" name="first_heading" value="<%=home_slider[0].first_heading%>" placeholder="first heading" class="form-control">
+
+                <br>
+            </div>
+            </div>
+        <div class="col-md-6 mt-2 mb-2">
+                <label for="">Main heading</label>
+                <input type="text" name="main_heading" value="<%=home_slider[0].main_heading%>" placeholder="Main heading" class="form-control">
+                <br>
+            </div>
+
+            <div class="col-md-6 mt-2 mb-2">
+                <label for="">Main Animated heading</label>
+                <input type="text" name="main_animated_heading" value="<%=home_slider[0].main_animated_heading%>" placeholder="Main Animated heading" class="form-control">
+                <br>
+            </div>
+
+        <div class="col-md-6 mt-2 mb-2">
+            <label for="">third heading</label>
+            <input type="text" name="third_heading" value="<%=home_slider[0].third_heading%>" placeholder="Third heading" class="form-control">
+            <br>
+        </div>
+        <div class="col-md-6 mt-2 mb-2">
+            <label for="">Slider Image</label>
+            <input type="file" name="slider_image" placeholder="Slider Image" class="form-control">
+            <br>
+        </div>
+        <div class="col-md-6 mt-2 mb-2">
+            <img src="/uploads/<%=home_slider[0].slider_image%>" alt="" width="200">
+        </div>
+        
+        <div class="col-md-12 mt-2 mb-2 text-center">
+        <button class="btn btn-primary">Update Now</button>
+        </div>
+
+    </div>
+</div>
+</div>
+</form>
+
+<%-include('footer.ejs')%>
