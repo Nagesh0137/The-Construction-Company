@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -25,16 +26,24 @@ export default function Footer() {
                 <h2 className="fs-bold">Quick Links</h2>
                 <ul type="none" className="pt-4">
                   <li className="nav-item mt-2">
-                    <a className="nav-link">About</a>
+                    <NavLink to="/about" className="nav-link">
+                      About
+                    </NavLink>
                   </li>
                   <li className="nav-item mt-2">
-                    <a className="nav-link">Services</a>
+                    <NavLink to="/services" className="nav-link">
+                      Services
+                    </NavLink>
                   </li>
                   <li className="nav-item mt-2">
-                    <a className="nav-link">Projects</a>
+                    <NavLink to="/projects" className="nav-link">
+                      Projects
+                    </NavLink>
                   </li>
                   <li className="nav-item mt-2">
-                    <a className="nav-link">Contact Us</a>
+                    <NavLink to="/contact" className="nav-link">
+                      Contact Us
+                    </NavLink>
                   </li>
                 </ul>
               </div>
@@ -44,22 +53,26 @@ export default function Footer() {
                 <h2 className="fs-bold">Contact</h2>
                 <ul type="none" className="pt-4">
                   <li className="nav-item mt-2">
-                    <a className="nav-link">
+                    <a href="#" className="nav-link">
                       198 West 21th Street, Suite 721 New York,NY 10010
                     </a>
                   </li>
                   <li className="nav-item mt-2">
-                    <a className="nav-link">Phone: +95 (0) 123 456 789</a>
+                    <a href="#" className="nav-link">
+                      Phone: +95 (0) 123 456 789
+                    </a>
                   </li>
                   <li className="nav-item mt-2">
-                    <a className="nav-link">Cell: +95 (0) 123 456 789</a>
+                    <a href="#" className="nav-link">
+                      Cell: +95 (0) 123 456 789
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-12 col-md-4">
               <div className="px-md-5 text-white">
-                <div class="input-group">
+                <div className="input-group">
                   <input
                     type="text"
                     placeholder="Email Address"

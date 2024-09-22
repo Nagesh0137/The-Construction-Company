@@ -66,15 +66,15 @@ export default class About extends React.Component {
                 data-aos-duration="1000"
                 className="col-md-4 mt-3"
               >
-                <div class="card border-0 rounded-0 overflow-hidden">
+                <div className="card border-0 rounded-0 overflow-hidden">
                   <img
                     src="https://themewagon.github.io/constructioncompany/assets/img/team/team1.png"
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="..."
                   />
-                  <div class="card-body bg-body-tertiary border border-top-0 position-relative">
-                    <h6 class="card-text text-center">UX Designer</h6>
-                    <h2 class="card-title">Ethan Welch</h2>
+                  <div className="card-body bg-body-tertiary border border-top-0 position-relative">
+                    <h6 className="card-text text-center">UX Designer</h6>
+                    <h2 className="card-title">Ethan Welch</h2>
                   </div>
                 </div>
               </div>
@@ -83,15 +83,15 @@ export default class About extends React.Component {
                 data-aos-duration="1000"
                 className="col-md-4 mt-3"
               >
-                <div class="card border-0 rounded-0 overflow-hidden">
+                <div className="card border-0 rounded-0 overflow-hidden">
                   <img
                     src="https://themewagon.github.io/constructioncompany/assets/img/team/team2.png"
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="..."
                   />
-                  <div class="card-body bg-body-tertiary border border-top-0 position-relative">
-                    <h6 class="card-text text-center">UX Designer</h6>
-                    <h2 class="card-title">Ethan Welch</h2>
+                  <div className="card-body bg-body-tertiary border border-top-0 position-relative">
+                    <h6 className="card-text text-center">UX Designer</h6>
+                    <h2 className="card-title">Ethan Welch</h2>
                   </div>
                 </div>
               </div>
@@ -100,15 +100,15 @@ export default class About extends React.Component {
                 data-aos-duration="1000"
                 className="col-md-4 mt-3"
               >
-                <div class="card border-0 rounded-0 overflow-hidden">
+                <div className="card border-0 rounded-0 overflow-hidden">
                   <img
                     src="https://themewagon.github.io/constructioncompany/assets/img/team/team3.png"
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="..."
                   />
-                  <div class="card-body bg-body-tertiary border border-top-0 position-relative">
-                    <h6 class="card-text text-center">UX Designer</h6>
-                    <h2 class="card-title">Ethan Welch</h2>
+                  <div className="card-body bg-body-tertiary border border-top-0 position-relative">
+                    <h6 className="card-text text-center">UX Designer</h6>
+                    <h2 className="card-title">Ethan Welch</h2>
                   </div>
                 </div>
               </div>

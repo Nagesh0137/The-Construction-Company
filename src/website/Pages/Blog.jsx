@@ -37,7 +37,7 @@ export default function Blog() {
                         <p className="card-text">
                           <small className="text-body-secondary">
                             <i className="fa fa-user mx-2"></i>Travel, Lifestyle
-                            | <i class="fa-solid fa-comments mx-2"></i>03
+                            | <i className="fa-solid fa-comments mx-2"></i>03
                             Comments
                           </small>
                         </p>
@@ -70,7 +70,7 @@ export default function Blog() {
                         <p className="card-text">
                           <small className="text-body-secondary">
                             <i className="fa fa-user mx-2"></i>Travel, Lifestyle
-                            | <i class="fa-solid fa-comments mx-2"></i>03
+                            | <i className="fa-solid fa-comments mx-2"></i>03
                             Comments
                           </small>
                         </p>
@@ -103,7 +103,7 @@ export default function Blog() {
                         <p className="card-text">
                           <small className="text-body-secondary">
                             <i className="fa fa-user mx-2"></i>Travel, Lifestyle
-                            | <i class="fa-solid fa-comments mx-2"></i>03
+                            | <i className="fa-solid fa-comments mx-2"></i>03
                             Comments
                           </small>
                         </p>

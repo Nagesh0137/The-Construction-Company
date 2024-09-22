@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import Header from "./Header";
 import Home from "./Pages/Home";
@@ -12,7 +12,9 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "aos/dist/aos.css";
 import Aos from "aos";
 export default function App() {
-  Aos.init();
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <Router>

@@ -43,7 +43,9 @@ export default function Header() {
             <div className="col-7 col-md-3">
               <img
                 src="https://themewagon.github.io/constructioncompany/assets/img/logo/logo.png"
-                className="w-100 d-lg-block d-none"></img>
+                alt="logo"
+                className="w-100 d-lg-block d-none"
+              ></img>
               <img
                 src="https://themewagon.github.io/constructioncompany/assets/img/logo/loder-logo.png"
                 className=" ms-3 my-2 w-25 d-md-none"
@@ -60,8 +62,9 @@ export default function Header() {
                     data-bs-target="#navbarNav"
                     aria-controls="navbarNav"
                     aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
+                    aria-label="Toggle navigation"
+                  >
+                    <i className="fa-solid fa-bars"></i>
                   </button>
                   <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav d-flex justify-content-center">
@@ -69,7 +72,8 @@ export default function Header() {
                         <NavLink
                           className="nav-link ms-md-3"
                           aria-current="page"
-                          to="/">
+                          to="/"
+                        >
                           Home
                         </NavLink>
                       </li>

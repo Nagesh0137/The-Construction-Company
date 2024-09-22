@@ -20,19 +20,29 @@ export default function Project() {
               <div className="project-nav">
                 <ul className="d-flex justify-content-center pt-5 ps-md-5">
                   <li className="nav-item">
-                    <a className="active">show all</a>
+                    <a href="#" className="active">
+                      show all
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Intorior</a>
+                    <a href="#" className="">
+                      Intorior
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Recent</a>
+                    <a href="#" className="">
+                      Recent
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Big building</a>
+                    <a href="#" className="">
+                      Big building
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Park</a>
+                    <a href="#" className="">
+                      Park
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -41,15 +51,15 @@ export default function Project() {
           {/* project 1nd row */}
           <div className="row" data-aos="fade-up">
             <div data-aos="fade-up" className="col-12 col-md-4">
-              <div class="mt-5 project-card border-0">
+              <div className="mt-5 project-card border-0">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/gallery/project1.png"
-                  class="card-img-top h-100 w-100"
+                  className="card-img-top h-100 w-100"
                   alt="..."
                 />
-                <div class="card-title bg-body-tertiary p-3">
+                <div className="card-title bg-body-tertiary p-3">
                   <div className="w-100 h-100 d-flex justify-content-end">
-                    <a href="" className="nav-link">
+                    <a href="#" className="nav-link">
                       <i className="fa-solid fa-plus project-nav-plus"></i>
                     </a>
                   </div>
@@ -59,15 +69,15 @@ export default function Project() {
             </div>
 
             <div data-aos="fade-up" className="col-12 col-md-4">
-              <div class="mt-5 project-card border-0">
+              <div className="mt-5 project-card border-0">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/gallery/project2.png"
-                  class="card-img-top h-100 w-100"
+                  className="card-img-top h-100 w-100"
                   alt="..."
                 />
-                <div class="card-title bg-body-tertiary p-3">
+                <div className="card-title bg-body-tertiary p-3">
                   <div className="w-100 h-100 d-flex justify-content-end">
-                    <a href="" className="nav-link">
+                    <a href="#" className="nav-link">
                       <i className="fa-solid fa-plus project-nav-plus"></i>
                     </a>
                   </div>
@@ -77,15 +87,15 @@ export default function Project() {
             </div>
 
             <div data-aos="fade-up" className="col-12 col-md-4">
-              <div class="mt-5 project-card border-0">
+              <div className="mt-5 project-card border-0">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/gallery/project3.png"
-                  class="card-img-top h-100 w-100"
+                  className="card-img-top h-100 w-100"
                   alt="..."
                 />
-                <div class="card-title bg-body-tertiary p-3">
+                <div className="card-title bg-body-tertiary p-3">
                   <div className="w-100 h-100 d-flex justify-content-end">
-                    <a href="" className="nav-link">
+                    <a href="#" className="nav-link">
                       <i className="fa-solid fa-plus project-nav-plus"></i>
                     </a>
                   </div>
@@ -96,15 +106,15 @@ export default function Project() {
 
             {/* project 2nd row */}
             <div data-aos="fade-up" className="col-12 col-md-4">
-              <div class="mt-5 project-card border-0">
+              <div className="mt-5 project-card border-0">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/gallery/project4.png"
-                  class="card-img-top h-100 w-100"
+                  className="card-img-top h-100 w-100"
                   alt="..."
                 />
-                <div class="card-title bg-body-tertiary p-3">
+                <div className="card-title bg-body-tertiary p-3">
                   <div className="w-100 h-100 d-flex justify-content-end">
-                    <a href="" className="nav-link">
+                    <a href="#" className="nav-link">
                       <i className="fa-solid fa-plus project-nav-plus"></i>
                     </a>
                   </div>
@@ -114,15 +124,15 @@ export default function Project() {
             </div>
 
             <div data-aos="fade-up" className="col-12 col-md-4">
-              <div class="mt-5 project-card border-0">
+              <div className="mt-5 project-card border-0">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/gallery/project5.png"
-                  class="card-img-top h-100 w-100"
+                  className="card-img-top h-100 w-100"
                   alt="..."
                 />
-                <div class="card-title bg-body-tertiary p-3">
+                <div className="card-title bg-body-tertiary p-3">
                   <div className="w-100 h-100 d-flex justify-content-end">
-                    <a href="" className="nav-link">
+                    <a href="#" className="nav-link">
                       <i className="fa-solid fa-plus project-nav-plus"></i>
                     </a>
                   </div>
@@ -132,15 +142,15 @@ export default function Project() {
             </div>
 
             <div data-aos="fade-up" className="col-12 col-md-4">
-              <div class="mt-5 project-card border-0">
+              <div className="mt-5 project-card border-0">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/gallery/project6.png"
-                  class="card-img-top h-100 w-100"
+                  className="card-img-top h-100 w-100"
                   alt="..."
                 />
-                <div class="card-title bg-body-tertiary p-3">
+                <div className="card-title bg-body-tertiary p-3">
                   <div className="w-100 h-100 d-flex justify-content-end">
-                    <a href="" className="nav-link">
+                    <a href="#" className="nav-link">
                       <i className="fa-solid fa-plus project-nav-plus"></i>
                     </a>
                   </div>

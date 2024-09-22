@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 export default function Home() {
-  const [data, setdata] = useState([
+  const data = [
     {
       first_heading: "HAND CAR WASH AND DETAILING SERVICE",
       main_heading: "ADVANCED",
       main_animated_heading: "CONSTRUCTION",
     },
-  ]);
-  const [ourservice, setourservie] = useState([
+  ];
+
+  const ourservice = [
     {
       our_service_image:
         "https://themewagon.github.io/constructioncompany/assets/img/service/servicess1.png",
@@ -23,8 +24,8 @@ export default function Home() {
         "https://themewagon.github.io/constructioncompany/assets/img/service/servicess3.png",
       our_service_heading: "Engineering techniques & implementation",
     },
-  ]);
-  const [ourproject, setourproject] = useState([
+  ];
+  const ourproject = [
     {
       Project_image:
         "https://themewagon.github.io/constructioncompany/assets/img/gallery/project1.png",
@@ -55,7 +56,7 @@ export default function Home() {
         "https://themewagon.github.io/constructioncompany/assets/img/gallery/project6.png",
       project_heading: "Floride Chemicals Factory",
     },
-  ]);
+  ];
 
   return (
     <>
@@ -186,19 +187,29 @@ export default function Home() {
               <div className="project-nav">
                 <ul className="d-flex justify-content-center pt-5 ps-md-5">
                   <li className="nav-item">
-                    <a className="active">show all</a>
+                    <a href="#" className="active">
+                      show all
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Intorior</a>
+                    <a href="#" className="">
+                      Intorior
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Recent</a>
+                    <a href="#" className="">
+                      Recent
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Big building</a>
+                    <a href="#" className="">
+                      Big building
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className="">Park</a>
+                    <a href="#" className="">
+                      Park
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -214,13 +225,13 @@ export default function Home() {
                   className="col-12 col-md-4"
                   key={index}
                 >
-                  <div class="mt-5 project-card border-0">
+                  <div className="mt-5 project-card border-0">
                     <img
                       src={val.Project_image}
-                      class="card-img-top h-100 w-100"
+                      className="card-img-top h-100 w-100"
                       alt="..."
                     />
-                    <div class="card-title bg-body-tertiary p-3">
+                    <div className="card-title bg-body-tertiary p-3">
                       <div className="w-100 h-100 d-flex justify-content-end">
                         <a href="" className="nav-link">
                           <i className="fa-solid fa-plus project-nav-plus"></i>
@@ -324,15 +335,15 @@ export default function Home() {
               data-aos-duration="1000"
               className="col-md-4 mt-3"
             >
-              <div class="card border-0 rounded-0 overflow-hidden">
+              <div className="card border-0 rounded-0 overflow-hidden">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/team/team1.png"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                 />
-                <div class="card-body bg-body-tertiary border border-top-0 position-relative">
-                  <h6 class="card-text text-center">UX Designer</h6>
-                  <h2 class="card-title">Ethan Welch</h2>
+                <div className="card-body bg-body-tertiary border border-top-0 position-relative">
+                  <h6 className="card-text text-center">UX Designer</h6>
+                  <h2 className="card-title">Ethan Welch</h2>
                 </div>
               </div>
             </div>
@@ -341,15 +352,15 @@ export default function Home() {
               data-aos-duration="1000"
               className="col-md-4 mt-3"
             >
-              <div class="card border-0 rounded-0 overflow-hidden">
+              <div className="card border-0 rounded-0 overflow-hidden">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/team/team2.png"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                 />
-                <div class="card-body bg-body-tertiary border border-top-0 position-relative">
-                  <h6 class="card-text text-center">UX Designer</h6>
-                  <h2 class="card-title">Ethan Welch</h2>
+                <div className="card-body bg-body-tertiary border border-top-0 position-relative">
+                  <h6 className="card-text text-center">UX Designer</h6>
+                  <h2 className="card-title">Ethan Welch</h2>
                 </div>
               </div>
             </div>
@@ -358,15 +369,15 @@ export default function Home() {
               data-aos-duration="1000"
               className="col-md-4 mt-3"
             >
-              <div class="card border-0 rounded-0 overflow-hidden">
+              <div className="card border-0 rounded-0 overflow-hidden">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/team/team3.png"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                 />
-                <div class="card-body bg-body-tertiary border border-top-0 position-relative">
-                  <h6 class="card-text text-center">UX Designer</h6>
-                  <h2 class="card-title">Ethan Welch</h2>
+                <div className="card-body bg-body-tertiary border border-top-0 position-relative">
+                  <h6 className="card-text text-center">UX Designer</h6>
+                  <h2 className="card-title">Ethan Welch</h2>
                 </div>
               </div>
             </div>
