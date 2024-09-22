@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nagesh0137/The-Construction-Company-.git/static/css/main.bb5aecb4.css",
+    "main.js": "/Nagesh0137/The-Construction-Company-.git/static/js/main.e91641c7.js",
+    "static/js/453.4860d667.chunk.js": "/Nagesh0137/The-Construction-Company-.git/static/js/453.4860d667.chunk.js",
+    "index.html": "/Nagesh0137/The-Construction-Company-.git/index.html",
+    "main.bb5aecb4.css.map": "/Nagesh0137/The-Construction-Company-.git/static/css/main.bb5aecb4.css.map",
+    "main.e91641c7.js.map": "/Nagesh0137/The-Construction-Company-.git/static/js/main.e91641c7.js.map",
+    "453.4860d667.chunk.js.map": "/Nagesh0137/The-Construction-Company-.git/static/js/453.4860d667.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb5aecb4.css",
+    "static/js/main.e91641c7.js"
+  ]
+}
