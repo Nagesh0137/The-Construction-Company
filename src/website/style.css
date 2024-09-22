@@ -1,395 +1,497 @@
-body{
-    font-family: "Barlow", sans-serif;
-    font-weight: normal;
-    font-style: normal;
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: "Roboto Condensed", sans-serif;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
-.bgcolor{
-    background: #ff5f13 !important;
+.bgcolor {
+  background: #ff5f13 !important;
+}
+/* navbar */
+.nav-link {
+  color: #fff !important;
 }
 /* headimg */
-.headimg{
-    background: url("https://themewagon.github.io/constructioncompany/assets/img/hero/about.jpg") no-repeat center center/cover;
-    width: 100vw;
-    height: 100vh;
+.headimg {
+  background: url("https://themewagon.github.io/constructioncompany/assets/img/hero/about.jpg")
+    no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
 }
-.headimg::before{
-    background: -webkit-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
-    
+.headimg::before {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(2, 8, 52, 0.74902) 0%,
+    rgba(2, 8, 52, 0.14902) 100%
+  );
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
 }
-.headimg div{
-    padding-top: 300px;
-    padding-left: 100px;
-    position: absolute;
+.headimg div {
+  padding-top: 300px;
+  padding-left: 100px;
+  position: absolute;
 }
-.headimg div p{
-    color: #fff !important;
-    font-size: 70px;
-    font-weight: 900;
-    z-index: 99999999999;
+.headimg div p {
+  color: #fff !important;
+  font-size: 70px;
+  font-weight: 900;
+  z-index: 99999999999;
 }
 /* header */
-.menu{
-    height: auto;
-    width: 100%;
-    float: left;
-    background:rgba(25,26,51,0.7);  
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: 9;
+.menu {
+  height: auto;
+  width: 100%;
+  float: left;
+  background: rgba(25, 26, 51, 0.7);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 9;
 }
-.fa-bars{
-    color: #ff5f13 !important;
-    font-size: 35px;
+.social-icons li i:hover {
+  color: #ff5f13;
+  cursor: pointer;
 }
-.nav-link{
-    color: white;
-    font-family: "Roboto Condensed", sans-serif;
+.active {
+  color: #ff5f13 !important;
+  text-shadow: 0px 0px 1px #fff;
 }
-.backimg{
-    background: url("https://themewagon.github.io/constructioncompany/assets/img/hero/h1_hero.jpg") no-repeat;
-    background-position: center center/cover;
-    background-size: 100% 100%;
-    width:100vw;
-    height: 110vh;
-    position: relative;
-    overflow: hidden;
+.fa-bars {
+  color: #ff5f13 !important;
+  font-size: 35px;
 }
-.backimg::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: -webkit-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index:1;
+.nav-link {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
 }
-.home-text{
-    z-index: 3;
-    padding-left: 50px;
+.backimg {
+  background: url("https://themewagon.github.io/constructioncompany/assets/img/hero/h1_hero.jpg")
+    no-repeat;
+  background-position: center center/cover;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 110vh;
+  position: relative;
+  overflow: hidden;
 }
-.home-text div h2{
-    font-size: 130px;
-    font-weight: 800;
-    margin-top: -30PX;
-    text-transform: uppercase;
-    position: absolute;
-    color: #fff;
-    margin-left: 50px;  
+.backimg::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(2, 8, 52, 0.74902) 0%,
+    rgba(2, 8, 52, 0.14902) 100%
+  );
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
 }
-.home-text div h2:nth-child(1){
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
-    -webkit-text-fill-color: transparent;
+.home-text {
+  z-index: 3;
+  padding-left: 50px;
 }
-.home-text div h2:nth-child(2){
-    color: #ff5f13;
-    -webkit-animation: animate 4s ease-in-out infinite;
-    animation: animate 3s ease-in-out infinite; 
+.home-text div h2 {
+  font-size: 130px;
+  font-weight: 800;
+  margin-top: -30px;
+  text-transform: uppercase;
+  position: absolute;
+  color: #fff;
+  margin-left: 50px;
 }
-.home-text span::before{
-   
-    content: "";
-    width: 25px;
-    height: 2px;
-    background: #ff5f13;
-    position: absolute;
-    top: 50%;
-    left: 6%;
+.home-text div h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
 }
-.home-text p{
-    font-size: 130px;
-    font-weight: 900;
-    color: #ffffff;
-    font-family: 'Barlow', sans-serif;
-    line-height: 1;
-    text-transform: uppercase;
-    color: #ff5f13;
-    margin-top: 20px;
+.home-text div h2:nth-child(2) {
+  color: #ff5f13;
+  -webkit-animation: animate 4s ease-in-out infinite;
+  animation: animate 3s ease-in-out infinite;
+}
+.home-text span::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: #ff5f13;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+}
+.home-text p {
+  font-size: 130px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ff5f13;
+  margin-top: 20px;
 }
 
 @keyframes animate {
-	0%,
-	100% {
-		clip-path: polygon(
-			0% 45%,
-			16% 44%,
-			33% 50%,
-			54% 60%,
-			70% 61%,
-			84% 59%,
-			100% 52%,
-			100% 100%,
-			0% 100%
-		);
-	}
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
 
-	50% {
-		clip-path: polygon(
-			0% 60%,
-			15% 65%,
-			34% 66%,
-			51% 62%,
-			67% 50%,
-			84% 45%,
-			100% 46%,
-			100% 100%,
-			0% 100%
-		);
-	}
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
 }
 
 /* our services */
-.our-services div h1{
-  font-family:sans-serif;
+.our-services div h1 {
+  font-family: sans-serif;
   font-weight: 800;
 }
-.row .d-flex a i{
-    font-size: 20px;
+.row .d-flex a i {
+  font-size: 20px;
 }
 .row .card-title {
-    font-weight: 700;
+  font-weight: 700;
 }
-.row .card img{
-    transition: .2s;
+.row .card img {
+  transition: 0.2s;
 }
-.row .card:hover img{
-    transform:scale(1.1);
+.row .card:hover img {
+  transform: scale(1.1);
 }
-.row .card:hover .fa-plus{
-   background: #ff5f13;
-   color: #fff !important;
+.row .card:hover .fa-plus {
+  background: #ff5f13;
+  color: #fff !important;
 }
 
 /* About Us */
-.About-us h1{
-    font-size: 100px;
-    font-weight: bold;
-    padding-bottom: 40px;
+.About-us h1 {
+  font-size: 100px;
+  font-weight: bold;
+  padding-bottom: 40px;
 }
-.About-us b{
-   
-    font-size: 17px;
-    font-weight: 700;
-    color: #0b0b2b;
+.About-us b {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0b0b2b;
 }
-.Since-card{
-    position: absolute;
-    /* top: 100%; */
-    left: 0%;
-    background: #1f2b7b;
-    padding: 32px 30px;
-    border-radius: 5px;
-    color:#fff;
-    text-align: center;
-   
+.Since-card {
+  position: absolute;
+  /* top: 100%; */
+  left: 0%;
+  background: #1f2b7b;
+  padding: 32px 30px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
 }
- 
+
 /* Project */
-.Project div div h1, .ourteam{
-    font-size: 60px;
-    font-weight: bold;
+.Project div div h1,
+.ourteam {
+  font-size: 60px;
+  font-weight: bold;
 }
-.project-nav ul li{
- list-style: none;
- padding-left:20px;
- font-size: 20px;
+.project-nav ul li {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 20px;
 }
-.project-nav ul li a{
- text-decoration: none;
- text-transform: capitalize;
- color: black;
+.project-nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
 }
-.project-nav ul li a:hover{
-    color: #ff5f13;
-    cursor: pointer;
+.project-nav ul li a:hover {
+  color: #ff5f13;
+  cursor: pointer;
 }
-.project-nav ul li .active{
-   color: #ff5f13;
+.project-nav ul li .active {
+  color: #ff5f13;
 }
-.project-nav-plus{
-    margin-top: -40px;
-    font-size: 30px;
-    color: #fff;
-    background: #ff5f13;
-    padding: 10px;
-    display: none;
+.project-nav-plus {
+  margin-top: -40px;
+  font-size: 30px;
+  color: #fff;
+  background: #ff5f13;
+  padding: 10px;
+  display: none;
 }
-.project-card:hover .card-title{
-    background-color: #0b1c39 !important;
-    color: #fff;
-    transition: .5s;
+.project-card:hover .card-title {
+  background-color: #0b1c39 !important;
+  color: #fff;
+  transition: 0.5s;
 }
-.project-card:hover .project-nav-plus{
-    display: block;
-    transition: .5s;
+.project-card:hover .project-nav-plus {
+  display: block;
+  transition: 0.5s;
 }
 
 /* lets talk */
-.lets-talk-bgimg{
-    background: url("https://themewagon.github.io/constructioncompany/assets/img/gallery/section-bg2.jpg")no-repeat center center/cover;
+.lets-talk-bgimg {
+  background: url("https://themewagon.github.io/constructioncompany/assets/img/gallery/section-bg2.jpg")
+    no-repeat center center/cover;
 }
-.lets-talk-bgimg .container{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    position: relative;
+.lets-talk-bgimg .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
 }
-.lets-talk-bgimg .container div h2{
-    font-size: 70px;
-    font-weight: 800;
-    line-height: 1.4;
-    text-transform: uppercase;
-    font-family: "Teko", sans-serif;
-    word-spacing: -8px;
+.lets-talk-bgimg .container div h2 {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-family: "Teko", sans-serif;
+  word-spacing: -8px;
 }
 
-.lets-talk-bgimg .container span{
-    font-size: 120px;
-    font-weight: 800;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px #f6f7f8;
-    -webkit-text-fill-color: transparent;
-    line-height: 1.1;
-    position: absolute;
-    transform: translateY(-114%);
-    left: 30px;
-    opacity: 0.3;
-    
+.lets-talk-bgimg .container span {
+  font-size: 120px;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #f6f7f8;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+  position: absolute;
+  transform: translateY(-114%);
+  left: 30px;
+  opacity: 0.3;
 }
-.count-bg-img{
-    background: url("https://themewagon.github.io/constructioncompany/assets/img/gallery/section-bg3.jpg") no-repeat center center/cover;
-    margin-top:-75px ;
+.count-bg-img {
+  background: url("https://themewagon.github.io/constructioncompany/assets/img/gallery/section-bg3.jpg")
+    no-repeat center center/cover;
+  margin-top: -75px;
 }
-.count-text div .p-3{
-    color: #fff;
-    font-size: 55px;
-    font-weight: 700;
-    margin-bottom: 0;
+.count-text div .p-3 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 0;
 }
-.count-text div{
-    padding-left: 10px;
+.count-text div {
+  padding-left: 10px;
 }
 /* our team */
-.our-team div .card-body h6{
-    color: #ff5f13;
-    font-family: "Teko", sans-serif;
-    font-size: 15px;
-    word-spacing: -2px;
-    padding-top: 15px;
+.our-team div .card-body h6 {
+  color: #ff5f13;
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  word-spacing: -2px;
+  padding-top: 15px;
 }
-.our-team div .card-body h6::before{
-    position: absolute;
-    content: "";
-    top: 39%;
-    left: 29%;
-    width: 28px !important;
-    height: 2px !important;
-    transform: translateY(-50%);
-    background: #ff5f13;
+.our-team div .card-body h6::before {
+  position: absolute;
+  content: "";
+  top: 39%;
+  left: 29%;
+  width: 28px !important;
+  height: 2px !important;
+  transform: translateY(-50%);
+  background: #ff5f13;
 }
-.our-team div .card-body h2{
-    color: #0e132a;
-    font-weight: 800;
-    font-size: 25px;
-    font-family: "Teko", sans-serif;
+.our-team div .card-body h2 {
+  color: #0e132a;
+  font-weight: 800;
+  font-size: 25px;
+  font-family: "Teko", sans-serif;
 }
 
 /* footer */
-footer{
-    background: #070b11 !important;
+footer {
+  background: #070b11 !important;
 }
-footer h2{
-    color: #fff !important
+footer h2 {
+  color: #fff !important;
 }
-footer .text-white{
-    color: #9fa6bd !important;
+footer .text-white {
+  color: #9fa6bd !important;
 }
-footer .nav-link{
-    color: #9fa6bd !important;
+footer .nav-link {
+  color: #9fa6bd !important;
 }
-footer .input-group input{
+footer .input-group input {
   background: #364457;
   color: #fff;
 }
-footer .input-group button{
-    background: #0a0f17;
-    color: #fff;
+footer .input-group button {
+  background: #0a0f17;
+  color: #fff;
 }
-footer .input-group img{
-    background: #070b11 !important;
+footer .input-group img {
+  background: #070b11 !important;
 }
-
 
 /* blog */
 
-.blog-date{
-    /* width: 20px; */
-    position: absolute;
-    margin-top: -90px;
-    
+.blog-date {
+  /* width: 20px; */
+  position: absolute;
+  margin-top: -90px;
 }
-.blog-list ul li a{
-    text-decoration: none;
-    color:black; 
+.blog-list ul li a {
+  text-decoration: none;
+  color: black;
 }
-.blog-list ul li{
-    padding: 15px;
-    border-bottom: 1px solid rgb(227, 219, 219);
+.blog-list ul li {
+  padding: 15px;
+  border-bottom: 1px solid rgb(227, 219, 219);
 }
-.blog-list ul li a:hover{
-    color: #ff5f13;
+.blog-list ul li a:hover {
+  color: #ff5f13;
 }
-.text-body-secondary i:hover{
-    display: none !important;
+.text-body-secondary i:hover {
+  display: none !important;
+}
+/* newslatter style */
+.newsletter-subscribe {
+  color: #313437;
+  background-color: #ffffff;
+  /* padding: 55px 74px; */
+}
+
+.newsletter-subscribe p {
+  color: #7d8285;
+  line-height: 1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.newsletter-subscribe .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+}
+
+.newsletter-subscribe form {
+  justify-content: center;
+}
+
+.newsletter-subscribe form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+
+.newsletter-subscribe form .btn {
+  /* padding: 16px 32px; */
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity: 1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform: translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color: #ff5f13 !important;
+  color: #fff;
+  outline: none !important;
+}
+
+body {
+  background: #eee;
+}
+
+.newsletter {
+  color: #000 !important;
 }
 /* respons */
-@media(max-width: 768px){
-   .backimg{
+@media (max-width: 768px) {
+  .backimg {
     width: 100vw;
-    height:80vh;
-   }
-   .home-text{
-        padding: 0px;
-        top: 10%;
-   }
-   .home-text p{
-        font-size:45px;
-        margin-top: 50px;
-        margin-left: 40px;
-        margin-bottom: 25px;
-   }
-   .home-text div h2{ 
+    height: 80vh;
+  }
+  .home-text {
+    padding: 0px;
+    top: 10%;
+  }
+  .home-text p {
     font-size: 45px;
-   }
-   .project-nav ul li{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+  .home-text div h2 {
+    font-size: 45px;
+  }
+  .project-nav ul li {
     font-size: 16px;
-   }
-   .lets-talk-bgimg .container div h2{
+  }
+  .lets-talk-bgimg .container div h2 {
     font-size: 28px;
     word-spacing: 5px;
     font-weight: 700;
-   }
-   .lets-talk-bgimg .container span{
+  }
+  .lets-talk-bgimg .container span {
     font-size: 53px;
     line-height: 1.2;
-   }
-   .count-bg-img{
+  }
+  .count-bg-img {
     width: 90%;
-   }
+  }
 }
