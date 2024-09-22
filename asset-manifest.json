@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Nagesh0137/The-Construction-Company/static/css/main.bb5aecb4.css",
-    "main.js": "/Nagesh0137/The-Construction-Company/static/js/main.e62db40d.js",
+    "main.js": "/Nagesh0137/The-Construction-Company/static/js/main.0b6695b4.js",
     "static/js/453.4860d667.chunk.js": "/Nagesh0137/The-Construction-Company/static/js/453.4860d667.chunk.js",
     "index.html": "/Nagesh0137/The-Construction-Company/index.html",
     "main.bb5aecb4.css.map": "/Nagesh0137/The-Construction-Company/static/css/main.bb5aecb4.css.map",
-    "main.e62db40d.js.map": "/Nagesh0137/The-Construction-Company/static/js/main.e62db40d.js.map",
+    "main.0b6695b4.js.map": "/Nagesh0137/The-Construction-Company/static/js/main.0b6695b4.js.map",
     "453.4860d667.chunk.js.map": "/Nagesh0137/The-Construction-Company/static/js/453.4860d667.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb5aecb4.css",
-    "static/js/main.e62db40d.js"
+    "static/js/main.0b6695b4.js"
   ]
 }
