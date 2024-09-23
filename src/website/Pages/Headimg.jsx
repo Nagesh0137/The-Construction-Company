@@ -8,7 +8,7 @@ export default function Headimg(props) {
           <div className="col-12 overflow-hidden">
             <div className="headimg">
               <div data-aos="zoom-in-up">
-                <p>{props.title}</p>
+                <p className="hero_title">{props.title}</p>
               </div>
             </div>
           </div>

@@ -54,7 +54,7 @@ export default class About extends React.Component {
         </section>
         {/* our team */}
         <section>
-          <div className="container py-5">
+          <div className="container pt-5">
             <div className="row our-team">
               <div className="col-12">
                 <div className="">
@@ -62,14 +62,14 @@ export default class About extends React.Component {
                 </div>
               </div>
               <div
-                data-aos="flip-right"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 className="col-md-4 mt-3"
               >
-                <div className="card border-0 rounded-0 overflow-hidden">
+                <div className="card shadow-lg border-0 rounded-0 overflow-hidden">
                   <img
                     src="https://themewagon.github.io/constructioncompany/assets/img/team/team1.png"
-                    className="card-img-top"
+                    className="card-img-top rounded-0"
                     alt="..."
                   />
                   <div className="card-body bg-body-tertiary border border-top-0 position-relative">
@@ -79,14 +79,14 @@ export default class About extends React.Component {
                 </div>
               </div>
               <div
-                data-aos="flip-right"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 className="col-md-4 mt-3"
               >
-                <div className="card border-0 rounded-0 overflow-hidden">
+                <div className="card border-0 shadow-lg mt-4 mt-md-0 rounded-0 overflow-hidden">
                   <img
                     src="https://themewagon.github.io/constructioncompany/assets/img/team/team2.png"
-                    className="card-img-top"
+                    className="card-img-top rounded-0"
                     alt="..."
                   />
                   <div className="card-body bg-body-tertiary border border-top-0 position-relative">
@@ -96,14 +96,14 @@ export default class About extends React.Component {
                 </div>
               </div>
               <div
-                data-aos="flip-right"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 className="col-md-4 mt-3"
               >
-                <div className="card border-0 rounded-0 overflow-hidden">
+                <div className="card border-0 rounded-0 shadow-lg mt-4 mt-md-0 overflow-hidden">
                   <img
                     src="https://themewagon.github.io/constructioncompany/assets/img/team/team3.png"
-                    className="card-img-top"
+                    className="card-img-top rounded-0"
                     alt="..."
                   />
                   <div className="card-body bg-body-tertiary border border-top-0 position-relative">

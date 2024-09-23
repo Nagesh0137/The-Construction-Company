@@ -61,13 +61,13 @@ export default function RightSidebar() {
           </div>
           <div
             data-aos="fade-down"
-            className="mt-4 p-2 text-dark blog-list bg-body-tertiary"
+            className="mt-4 p-2 text-dark blog-list bg-body-tertiary "
           >
             <h5 className="px-4 pt-3">Recent Post</h5>
             <div className="m-4">
               <div className="overflow-hidden bg-body-tertiary border-0">
                 <div className="row g-0">
-                  <div className="col-md-4">
+                  <div className="col-md-4 recent_post">
                     <img
                       src="https://themewagon.github.io/constructioncompany/assets/img/post/post_1.png"
                       className="w-75"
@@ -90,7 +90,7 @@ export default function RightSidebar() {
             <div className="m-4">
               <div className="overflow-hidden bg-body-tertiary border-0">
                 <div className="row g-0">
-                  <div className="col-md-4">
+                  <div className="col-md-4 recent_post">
                     <img
                       src="https://themewagon.github.io/constructioncompany/assets/img/post/post_2.png"
                       className="w-75"
@@ -113,7 +113,7 @@ export default function RightSidebar() {
             <div className="m-4">
               <div className="overflow-hidden bg-body-tertiary border-0">
                 <div className="row g-0">
-                  <div className="col-md-4">
+                  <div className="col-md-4 recent_post">
                     <img
                       src="https://themewagon.github.io/constructioncompany/assets/img/post/post_3.png"
                       className="w-75"
@@ -136,7 +136,7 @@ export default function RightSidebar() {
             <div className="m-4">
               <div className="overflow-hidden bg-body-tertiary border-0">
                 <div className="row g-0">
-                  <div className="col-md-4">
+                  <div className="col-md-4 recent_post">
                     <img
                       src="https://themewagon.github.io/constructioncompany/assets/img/post/post_5.png"
                       className="w-75"

@@ -43,7 +43,7 @@ export default function Contacts() {
                   ></input>
                   <br />
                   <br />
-                  <button className="btn p-3 px-5 btn-info">SEND</button>
+                  <button className="btn p-3 px-5 send_btn">SEND</button>
                 </form>
               </div>
             </div>

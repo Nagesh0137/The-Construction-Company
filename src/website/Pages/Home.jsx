@@ -95,11 +95,7 @@ export default function Home() {
           <div className="row mt-5">
             {ourservice &&
               ourservice.map((val, index) => (
-                <div
-                  key={index}
-                  data-aos="zoom-out-up"
-                  className="col-12 col-md-4"
-                >
+                <div key={index} data-aos="fade-up" className="col-12 col-md-4">
                   <div className="card overflow-hidden border-0 rounded-0">
                     <img
                       src={val.our_service_image}
@@ -176,16 +172,16 @@ export default function Home() {
       </section>
       {/* OUR PROJECT  */}
       <section>
-        <div className="container pb-5 mb-5">
-          <div className="row Project p-5 mt-5">
+        <div className="container pb-5">
+          <div className="row Project p-0 p-md-5 mt-5">
             <div className="col-12 col-md-6">
               <div className="">
-                <h1 className="">OUR PROJECTS</h1>
+                <h1 className="our-project">OUR PROJECTS</h1>
               </div>
             </div>
             <div className="col-12 col-md-6">
-              <div className="project-nav">
-                <ul className="d-flex justify-content-center pt-5 ps-md-5">
+              <div className="project-nav rounded-1">
+                <ul className="d-flex justify-content-center pt-0 pt-md-5 ps-0 ps-md-5">
                   <li className="nav-item">
                     <a href="#" className="active">
                       show all
@@ -225,7 +221,7 @@ export default function Home() {
                   className="col-12 col-md-4"
                   key={index}
                 >
-                  <div className="mt-5 project-card border-0">
+                  <div className="mt-5 project-card shadow-lg border-0">
                     <img
                       src={val.Project_image}
                       className="card-img-top h-100 w-100"
@@ -323,7 +319,7 @@ export default function Home() {
 
       {/* OUR TEAM */}
       <section>
-        <div className="container py-5">
+        <div className="container pt-5">
           <div className="row our-team">
             <div className="col-12">
               <div className="">
@@ -335,10 +331,10 @@ export default function Home() {
               data-aos-duration="1000"
               className="col-md-4 mt-3"
             >
-              <div className="card border-0 rounded-0 overflow-hidden">
+              <div className="card shadow-lg border-0 rounded-0 overflow-hidden">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/team/team1.png"
-                  className="card-img-top"
+                  className="card-img-top rounded-0"
                   alt="..."
                 />
                 <div className="card-body bg-body-tertiary border border-top-0 position-relative">
@@ -352,10 +348,10 @@ export default function Home() {
               data-aos-duration="1000"
               className="col-md-4 mt-3"
             >
-              <div className="card border-0 rounded-0 overflow-hidden">
+              <div className="card border-0 shadow-lg mt-4 mt-md-0 rounded-0 overflow-hidden">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/team/team2.png"
-                  className="card-img-top"
+                  className="card-img-top rounded-0"
                   alt="..."
                 />
                 <div className="card-body bg-body-tertiary border border-top-0 position-relative">
@@ -369,10 +365,10 @@ export default function Home() {
               data-aos-duration="1000"
               className="col-md-4 mt-3"
             >
-              <div className="card border-0 rounded-0 overflow-hidden">
+              <div className="card border-0 rounded-0 shadow-lg mt-4 mt-md-0 overflow-hidden">
                 <img
                   src="https://themewagon.github.io/constructioncompany/assets/img/team/team3.png"
-                  className="card-img-top"
+                  className="card-img-top rounded-0"
                   alt="..."
                 />
                 <div className="card-body bg-body-tertiary border border-top-0 position-relative">

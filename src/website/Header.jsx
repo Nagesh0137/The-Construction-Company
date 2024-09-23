@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Navbar from "./Navbar";
 export default function Header() {
   return (
     <>
@@ -53,60 +54,7 @@ export default function Header() {
               />
             </div>
             <div className="col-5 col-md-7">
-              <nav className="navbar navbar-expand-lg pb-4">
-                <div className="container-fluid">
-                  <button
-                    className="navbar-toggler ms-auto"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <i className="fa-solid fa-bars"></i>
-                  </button>
-                  <div className="collapse navbar-collapse " id="navbarNav">
-                    <ul className="navbar-nav d-flex justify-content-center">
-                      <li className="nav-item">
-                        <NavLink
-                          className="nav-link ms-md-3"
-                          aria-current="page"
-                          to="/"
-                        >
-                          Home
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink className="nav-link ms-md-3" to="/about">
-                          About
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink className="nav-link ms-md-3" to="/projects">
-                          Projects
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink className="nav-link ms-md-3" to="/services">
-                          Services
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink className="nav-link ms-md-3" to="/blog">
-                          Blog
-                        </NavLink>
-                      </li>
-
-                      <li className="nav-item">
-                        <NavLink className="nav-link ms-md-3" to="/contact">
-                          Contact
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+              <Navbar></Navbar>
             </div>
             <div className="col-2">
               <button className="bgcolor btn btn-sm text-white fw-bold p-3 d-none d-md-block">
