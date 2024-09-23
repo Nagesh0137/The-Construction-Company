@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/The-Construction-Company/static/css/main.bb5aecb4.css",
-    "main.js": "/The-Construction-Company/static/js/main.e019ef2d.js",
+    "main.css": "/The-Construction-Company/static/css/main.d2cc1752.css",
+    "main.js": "/The-Construction-Company/static/js/main.49643c04.js",
     "static/js/453.4860d667.chunk.js": "/The-Construction-Company/static/js/453.4860d667.chunk.js",
     "index.html": "/The-Construction-Company/index.html",
-    "main.bb5aecb4.css.map": "/The-Construction-Company/static/css/main.bb5aecb4.css.map",
-    "main.e019ef2d.js.map": "/The-Construction-Company/static/js/main.e019ef2d.js.map",
+    "main.d2cc1752.css.map": "/The-Construction-Company/static/css/main.d2cc1752.css.map",
+    "main.49643c04.js.map": "/The-Construction-Company/static/js/main.49643c04.js.map",
     "453.4860d667.chunk.js.map": "/The-Construction-Company/static/js/453.4860d667.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb5aecb4.css",
-    "static/js/main.e019ef2d.js"
+    "static/css/main.d2cc1752.css",
+    "static/js/main.49643c04.js"
   ]
 }
