@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Nagesh0137/The-Construction-Company/static/css/main.bb5aecb4.css",
-    "main.js": "/Nagesh0137/The-Construction-Company/static/js/main.0b6695b4.js",
-    "static/js/453.4860d667.chunk.js": "/Nagesh0137/The-Construction-Company/static/js/453.4860d667.chunk.js",
-    "index.html": "/Nagesh0137/The-Construction-Company/index.html",
-    "main.bb5aecb4.css.map": "/Nagesh0137/The-Construction-Company/static/css/main.bb5aecb4.css.map",
-    "main.0b6695b4.js.map": "/Nagesh0137/The-Construction-Company/static/js/main.0b6695b4.js.map",
-    "453.4860d667.chunk.js.map": "/Nagesh0137/The-Construction-Company/static/js/453.4860d667.chunk.js.map"
+    "main.css": "/The-Construction-Company/static/css/main.bb5aecb4.css",
+    "main.js": "/The-Construction-Company/static/js/main.e019ef2d.js",
+    "static/js/453.4860d667.chunk.js": "/The-Construction-Company/static/js/453.4860d667.chunk.js",
+    "index.html": "/The-Construction-Company/index.html",
+    "main.bb5aecb4.css.map": "/The-Construction-Company/static/css/main.bb5aecb4.css.map",
+    "main.e019ef2d.js.map": "/The-Construction-Company/static/js/main.e019ef2d.js.map",
+    "453.4860d667.chunk.js.map": "/The-Construction-Company/static/js/453.4860d667.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb5aecb4.css",
-    "static/js/main.0b6695b4.js"
+    "static/js/main.e019ef2d.js"
   ]
 }
